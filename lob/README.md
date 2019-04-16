@@ -1,5 +1,5 @@
-Lord of Buffer Overflow 
-========================
+Lord of Buffer Overflow(LOB) 라업
+=================================   
 
 ## Lord of Buffer Overflow란?
  
