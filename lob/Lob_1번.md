@@ -178,4 +178,8 @@ id = 'gremlin'
 pw = 'hello bof world'
 ```
 
- 
+   
+     
+       
+### 추신
+나는 core파일 생성후 정확한 ret addr를 얻는 방식이 마음에 들어 앞으로의 라업도 core파일을 이용해서 쓸 것 이다.
