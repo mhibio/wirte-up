@@ -56,7 +56,6 @@ int main(int argc, char *argv[])
 ```
 크기 = 25bytes
 
-buffer의 크기는 256bytes
 스택 프레임 구조   
 >buffer(256) | SFP(4) | ret addr(4)  
 
@@ -98,6 +97,7 @@ gate@localhost tmp]$
 gdb열고
 
 ```
+(gdb)disas main
 Dump of assembler code for function main:
 0x8048430 <main>:	push   %ebp
 0x8048431 <main+1>:	mov    %esp,%ebp
@@ -253,4 +253,4 @@ ebp를 뜯어보도록 하자
 ```
 우리가 넣은 A값이 대충 0xbfffb58부터 시작되는 중
 그리고 ret addr위치에 넣었던 "\x90" 4개는 0xbfffc58에서 실행되는중
-대충 그 주위에서 돌리면 될 듯 싶다.
+대충 그 주위에서 ret addr를 넣어주면 될 듯 싶다.
