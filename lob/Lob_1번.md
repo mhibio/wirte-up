@@ -150,7 +150,7 @@ Program terminated with signal 11, Segmentation fault.
 ```
 메모리 뜯어본 결과
 >argv[1]에 넣었던 AAA~ 는 bffffb 40~50에서 시작되므로  
->널널히 bffffb50으로 ret addr을 맞쳐주자  
+>넉 bffffb50으로 ret addr을 맞쳐주자  
 >(그 뒤로 실행되다가 쉘코드를 만나면 쉘코드가 실행될 것 이다.)  
   
 ```
