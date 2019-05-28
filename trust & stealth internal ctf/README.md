@@ -26,7 +26,8 @@ SHANGHAI{NOT_64...:(}
 <hr>
 <img src="./image/TOP_SECRET.png" width="70%">  
 <hr>  
-### 사이트로 이동 (https://m.imgur.com/a/???)
+  
+### 사이트로 이동 (https://m.imgur.com/a/???)  
 >하얀배경을 확대시켜보면 안에 플래그가있다.  
   
 `  
