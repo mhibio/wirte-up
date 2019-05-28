@@ -8,7 +8,7 @@ SHANGHAI{잘다녀올게얘들아}
 
 
 # Encode our life - 75
->Ascii85로 ;b02L7n>p;HVR@9?T'_n/hT15I/을 디코딩해준다.
+>Ascii85로 ;b02L7n>p;HVR@9?T'_n/hT15I/ 을 디코딩해준다.
 
 `  
 SHANGHAI{NOT_64...:(}
@@ -36,21 +36,21 @@ SHANGHAI{string_to_binary_to_trustealth}
 >딱봐도 매크로 짜는 문제인거같아서 파이썬으로 코드를 만들었다.  
 >안전하게 2에서 멈추고 2번정도는 수동으로 했다.
 
-`  
-import zipfile
-
-
-zip = zipfile.ZipFile('C:\\???\\flag1337.zip')
-zip.extractall('C:\\???\\flag1337')
-c=1336
-while True:
-    a = 'C:\\???\\flag' + str(c) + '.zip'
-    print(a)
-    zip = zipfile.ZipFile(a)
-    zip.extractall('C:\\???\\flag1337')
-    c = c - 1
-    if c == 2:
-        break
-
-zip.close()
-`  
+`   
+import zipfile  
+  
+  
+zip = zipfile.ZipFile('C:\\???\\flag1337.zip')  
+zip.extractall('C:\\???\\flag1337')  
+c=1336  
+while True:  
+    a = 'C:\\???\\flag' + str(c) + '.zip'  
+    print(a)  
+    zip = zipfile.ZipFile(a)  
+    zip.extractall('C:\\???\\flag1337')  
+    c = c - 1  
+    if c == 2:  
+        break  
+  
+zip.close()  
+`    
