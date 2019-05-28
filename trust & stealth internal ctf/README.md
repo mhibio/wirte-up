@@ -26,7 +26,7 @@ SHANGHAI{NOT_64...:(}
 <hr>
 <img src="./image/TOP_SECRET.png" width="70%">  
 <hr>  
->### 사이트로 이동 (https://m.imgur.com/a/???)
+### 사이트로 이동 (https://m.imgur.com/a/???)
 >하얀배경을 확대시켜보면 안에 플래그가있다.  
   
 `  
@@ -72,6 +72,7 @@ zip.close()
 
 # Go High  - 225
 >의도한 건지는 모르겠는데 다운받은 파일(폴더)명이 그냥 플래그임  
+<img src="./image/Go_High.png" width="70%">   
 `SHANGHAI{QRCODE!!}`  
 
 # New_LOB - 100
