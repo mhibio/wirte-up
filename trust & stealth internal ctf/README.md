@@ -36,7 +36,7 @@ SHANGHAI{string_to_binary_to_trustealth}
 >딱봐도 매크로 짜는 문제인거같아서 파이썬으로 코드를 만들었다.  
 >안전하게 2에서 멈추고 2번정도는 수동으로 했다.
 
-`   
+```   
 import zipfile  
   
   
@@ -53,4 +53,4 @@ while True:
         break  
   
 zip.close()  
-`    
+```    
