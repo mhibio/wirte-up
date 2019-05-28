@@ -10,6 +10,7 @@ SHANGHAI{잘다녀올게얘들아}
 # Encode our life - 75
 >Ascii85로 ;b02L7n>p;HVR@9?T'_n/hT15I/ 을 디코딩해준다.
 
+<img src="./images/ASCII85.png" width="70%">  
 `  
 SHANGHAI{NOT_64...:(}
 `  
@@ -19,6 +20,11 @@ SHANGHAI{NOT_64...:(}
 >pptx를 받아서 열어보면  
 >QRcode가 두개로 찢겨져서 숨겨져있다.  
 >둘을 적당히 조합해서 코드를 찍으면?  
+<img src="./images/TOP_SECRET2.png" width="70%">   
+<img src="./images/TOP_SECRET3.png" width="70%">  
+<img src="./images/TOP_SECRET1.png" width="70%">  
+<img src="./images/TOP_SECRET.png" width="70%">  
+
 >  
 >### 사이트로 이동 (https://m.imgur.com/a/???)
 >하얀배경을 확대시켜보면 안에 플래그가있다.  
@@ -29,6 +35,10 @@ SHANGHAI{ripped_qrcode_:(}
 
 # TRUSEALTH - 150
 >TRUST는 0으로 STEALTH는 1로 바꿔서 문자열로 변환시키면 플래그가 나온다.  
+
+<img src="./images/trustealth.png" width="70%">  
+
+<img src="./images/trustealth1.png" width="70%">  
 `  
 SHANGHAI{string_to_binary_to_trustealth}
 `    
