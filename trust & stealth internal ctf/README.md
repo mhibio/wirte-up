@@ -8,7 +8,7 @@ SHANGHAI{잘다녀올게얘들아}
 
 
 # Encode our life - 75  
->Ascii85로 ;b02L7n>p;HVR@9?T'_n/hT15I/ 을 디코딩해준다.
+>Ascii85로 ';b02L7n>p;HVR@9?T'_n/hT15I/' 을 디코딩해준다.
 
 <img src="./image/ASCII85.png" width="70%">  
   
