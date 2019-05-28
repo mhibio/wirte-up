@@ -7,10 +7,11 @@ SHANGHAI{잘다녀올게얘들아}
 `  
 
 
-# Encode our life - 75
+# Encode our life - 75  
 >Ascii85로 ;b02L7n>p;HVR@9?T'_n/hT15I/ 을 디코딩해준다.
 
 <img src="./image/ASCII85.png" width="70%">  
+  
 `  
 SHANGHAI{NOT_64...:(}
 `  
@@ -39,7 +40,8 @@ SHANGHAI{ripped_qrcode_:(}
 
 <img src="./image/trustealth.png" width="70%">  
 
-<img src="./image/trustealth1.png" width="70%">  
+<img src="./image/trustealth1.png" width="70%">   
+  
 `  
 SHANGHAI{string_to_binary_to_trustealth}
 `    
@@ -74,6 +76,7 @@ zip.close()
 # Go High  - 225
 >의도한 건지는 모르겠는데 다운받은 파일(폴더)명이 그냥 플래그임  
 <img src="./image/Go_High.png" width="70%">   
+  
 `SHANGHAI{QRCODE!!}`  
 
 # New_LOB - 100
