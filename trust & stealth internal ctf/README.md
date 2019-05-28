@@ -1,6 +1,6 @@
 trust와 stealth선배들이 수학여행을 갔다왔을때 열린 ctf
 ===================================================
-  
+
 # 췍췍 MC조정훈입니다. - 10000
 `
 SHANGHAI{잘다녀올게얘들아}
@@ -22,7 +22,7 @@ SHANGHAI{NOT_64...:(}
 >  
 >### 사이트로 이동 (https://m.imgur.com/a/???)
 >하얀배경을 확대시켜보면 안에 플래그가있다.  
-  
+
 `  
 SHANGHAI{ripped_qrcode_:(}
 `  
@@ -39,8 +39,8 @@ SHANGHAI{string_to_binary_to_trustealth}
 
 ```   
 import zipfile  
-  
-  
+
+
 zip = zipfile.ZipFile('C:\\???\\flag1337.zip')  
 zip.extractall('C:\\???\\flag1337')  
 c=1336  
@@ -52,6 +52,8 @@ while True:
     c = c - 1  
     if c == 2:  
         break  
-  
+
 zip.close()  
 ```    
+
+`SHANGHAI{zipped_flag_so_many_times}`  
