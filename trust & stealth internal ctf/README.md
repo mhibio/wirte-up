@@ -59,11 +59,11 @@ zip.close()
 `SHANGHAI{zipped_flag_so_many_times}`  
 
 
-# Go High  
+# Go High  - 225
 >의도한 건지는 모르겠는데 다운받은 파일(폴더)명이 그냥 플래그임  
 `SHANGHAI{QRCODE!!}`  
 
-# New_LOB
+# New_LOB - 100
 >xshell로 stealth서버 접속후  
 >'python'으로 파이썬 실행  
 >p.send()와 p.recvline(), 마지막으로 p.interactive()만 사용하면 풀 수 있는문제  
@@ -83,5 +83,12 @@ cat flag
 ```  
 `SHANGHAI{YOU_KNOW_LOB!!!!}`  
 
-# Endgame
-귀찮아서 다음에 다시 
+# Endgame - 225  
+귀찮아서 다음에 다시...  
+  
+# So_Easy... - 50  
+귀찮아서 다음에 다시...  
+  
+#ALL? - 150  
+귀찮아서 다음에 다시...
+
