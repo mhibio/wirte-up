@@ -23,12 +23,15 @@ SHANGHAI{NOT_64...:(}
 >둘을 적당히 조합해서 코드를 찍으면?  
 <img src="./image/TOP_SECRET2.png" width="70%">   
 <img src="./image/TOP_SECRET3.png" width="70%">  
+  
+  
+### 사이트로 이동 (https://m.imgur.com/a/???)    
+  
 <img src="./image/TOP_SECRET1.png" width="70%"> 
 <hr>
 <img src="./image/TOP_SECRET.png" width="70%">  
 <hr>  
-  
-### 사이트로 이동 (https://m.imgur.com/a/???)  
+   
 >하얀배경을 확대시켜보면 안에 플래그가있다.  
   
 `  
@@ -45,6 +48,7 @@ SHANGHAI{ripped_qrcode_:(}
 `  
 SHANGHAI{string_to_binary_to_trustealth}
 `    
+<s>0은 거짓이고 1은 참값이라고 카더라..</s>
   
 # zip1337
 >압축파일을 1337번 해제하면 플래그가 나온다.  
