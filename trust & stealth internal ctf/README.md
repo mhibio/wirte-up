@@ -19,9 +19,10 @@ SHANGHAI{NOT_64...:(}
 >pptx를 받아서 열어보면  
 >QRcode가 두개로 찢겨져서 숨겨져있다.  
 >둘을 적당히 조합해서 코드를 찍으면?  
-
-### 사이트로 이동 (https://m.imgur.com/a/???)
+>  
+>### 사이트로 이동 (https://m.imgur.com/a/???)
 >하얀배경을 확대시켜보면 안에 플래그가있다.  
+  
 `  
 SHANGHAI{ripped_qrcode_:(}
 `  
